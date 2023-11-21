@@ -1,0 +1,29 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "simon.brummer@posteo.de",
+                "Name": "Simon Brummer"
+            },
+            {
+                "Email": "jaap.geurts@gmail.com",
+                "Name": "Jaap Geurts"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "Shows data from MQTT brokers",
+        "EnabledByDefault": true,
+        "Icon": "apps-mqtt",
+        "Id": "org.kde.plasma.mqttwidget",
+        "License": "LGPL-2.1+",
+        "Name": "MQTT Widget",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://plasma.kde.org/"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

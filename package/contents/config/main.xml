@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg
+    xmlns="http://www.kde.org/standards/kcfg/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name="" />
+    <group name="settings">
+        <entry name="name" type="String">
+            <label>Name</label>
+            <default />
+        </entry>
+        <entry name="title" type="String">
+            <label>Title</label>
+            <default />
+        </entry>
+        <entry name="valuecolor" type="String">
+            <default/>
+        </entry>
+        <entry name="topic" type="String">
+            <label>Topic</label>
+            <default />
+        </entry>
+        <entry name="address" type="String">
+            <label>Server(Host/IP)</label>
+            <default />
+        </entry>
+        <entry name="port" type="String">
+            <label>Topic</label>
+            <default />
+        </entry>
+        <entry name="enablessl" type="Bool">
+            <label>Enable SSL</label>
+            <default />
+        </entry>
+        <entry name="trustselfsigned" type="Bool">
+            <label>Trust self signed</label>
+            <default />
+        </entry>
+        <entry name="username" type="String">
+            <label>Username</label>
+            <default />
+        </entry>
+        <entry name="password" type="Password">
+            <label>Password</label>
+            <default />
+        </entry>
+    </group>
+</kcfg>

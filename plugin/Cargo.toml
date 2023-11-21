@@ -1,0 +1,18 @@
+[package]
+name = "mqttplugin"
+version = "0.1.0"
+authors = [
+    "Simon Brummer <simon.brummer@posteo.de>",
+    "Jaap Geurts <jaap.geurts@gmail.com>"
+]
+edition = "2021"
+license = "MPL-2.0"
+
+[lib]
+name = "mqttplugin"
+crate-type = ["cdylib"]
+
+[dependencies]
+qmetaobject = { version = "0.2.9"}
+paho-mqtt = "0.12"
+rand = "0.8.5"
